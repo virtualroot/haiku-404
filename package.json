@@ -2,7 +2,10 @@
   "name": "haiku-errors",
   "version": "0.1.0",
   "description": "Return a NetPositive haiku error messages.",
-  "repository": "virtualroot/haiku-errors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virtualroot/haiku-errors.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
