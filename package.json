@@ -1,6 +1,6 @@
 {
   "name": "haiku-errors",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Return a NetPositive haiku error messages.",
   "repository": {
     "type": "git",
@@ -9,10 +9,11 @@
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
-    "minify": "terser haiku.js --output haiku.min.js"
+    "minify": "terser index.js --output haiku.min.js"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "haiku.min.js"
   ],
   "keywords": [],
   "author": {
