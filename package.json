@@ -1,0 +1,24 @@
+{
+  "name": "haiku-errors",
+  "version": "0.1.0",
+  "description": "Return a NetPositive haiku error messages.",
+  "repository": "virtualroot/haiku-errors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify": "terser haiku.js --output haiku.min.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [],
+  "author": {
+    "name": "Alejandro Lazaro",
+    "url": "https://virtualroot.dev"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "3.2.5",
+    "terser": "^5.28.1"
+  }
+}
